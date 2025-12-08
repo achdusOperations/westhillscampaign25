@@ -106,7 +106,19 @@ background:#FFF !important ;
     justify-content: center !important;
     }
 }
-
+/*matchers*/
+.container-fluid.fs-matchers{
+    background:#FFF !important;
+    }
+    .fs-matchers .fs-matchers-intro strong{
+    color:#353a59 !important;
+    }
+    .fs-matchers .fs-matcher .fs-matcher-image{
+   display:none !important;
+    }
+    .fs-matchers .fs-matcher .fs-matcher-title{
+     display:none !important;
+    }
 
 /*countdown*/
 .fs-countdown {
@@ -242,75 +254,4 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         width:100%;
     }
 
-    /*matchers*/
-
-    /*section*/
-    .fs-matchers{
-        background:#FFF !important;
-        border-bottom: none !important;
-    }
-    @media (max-width:991px){
-        .fs-campaign-info{
-            background:#FFF !important;
-            border-bottom: #FFF !important;
-        }
-    }
-    /*"Every $=*/
-    .fs-matchers .fs-matchers-intro strong{
-        color:#fe766c !important;
-        font-style:italic !important;
-    }
-    .fs-matchers .fs-matchers-intro span:nth-child(2){
-        color:#101d5f !important;
-        font-style: italic !important;
-    }
-    /*circle with picture*/
-/*.fs-matchers .fs-matcher .fs-matcher-image .fs-image-wrap-max{
-        width:110px !important;
-        max-width: 110% !important;
-    }
-    /*title*/
-    /*body > div > div > div.fs-campaign-info > div.container-fluid.fs-matchers > div > h3 span{
-        text-transform: uppercase !important;
-        color: #16396a !important;
-        font-size:20px !important;
-    }
-   /* .fs-matchers .fs-matchers-intro{
-        position:relative !important;
-        top:427px !important;
-        
     
-    .container-fluid.fs-matchers{
-        margin-bottom:20px !important;
-    }
-   /* @media (max-width:991px){
-        .fs-matchers .fs-matchers-intro{
-            position:relative !important;
-            top: 758px !important;
-            margin-top:-70px !important;
-        }
-        .container-fluid.fs-matchers{
-            margin-bottom: 70px !important;
-        }
-    }*/
-   
-    .fs-matchers .fs-matcher .fs-matcher-title{
-        font-size: 24px !important;
-        color: #101d5f !important;
-        font-weight: bold !important;
-    }
-    .fs-matchers .fs-matcher .fs-matcher-subtitle{
-        font-size: 14px !important;
-        font-weight: bold !important;
-    }
-       /*donors buttons on separate lines. width is 100% divided by amount of matching categories (if more than 4 do 33%)*/
-       .fs-matchers .fs-matcher  {
-        width:33%;
-        padding-left:0px !important;
-        padding-right:0px !important;
-      }
-      @media (max-width: 991px){
-        .fs-matchers .fs-matcher{
-          width:100%;
-        }
-      }
