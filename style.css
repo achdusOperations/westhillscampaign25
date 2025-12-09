@@ -110,6 +110,7 @@ background:#FFF !important ;
 
 .container-fluid.fs-matchers{
     background:#FFF !important;
+    border-bottom: 1px solid #FFF !important;
     }/*
     .fs-matchers .fs-matchers-intro strong{
     color:#353a59 !important;
