@@ -120,10 +120,7 @@ background:#FFF !important ;
     .fs-matchers .fs-matcher .fs-matcher-title{
      display:none !important;
     }
-/*hide the quadruple*/
-    h3.fs-matchers-intro.text-center.js-viewport-in.a-delay-100ms{
-        display:none !important;
-    }
+
 
 /*countdown*/
 .fs-countdown {
