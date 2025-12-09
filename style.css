@@ -120,6 +120,13 @@ background:#FFF !important ;
     .fs-matchers .fs-matcher .fs-matcher-title{
      display:none !important;
     }
+
+    @media(max-width:991px){
+        .fs-campaign-info{
+            background-color: #fff !important;
+        }
+    }
+
 /*hide the quadruple*/
 h3.fs-matchers-intro.text-center.js-viewport-in.a-delay-100ms{
     display:none !important;
