@@ -147,12 +147,13 @@ h3.fs-matchers-intro.text-center.js-viewport-in.a-delay-100ms{
     }
     .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
         color:#fff !important;
-        /*display:none;*/
+        /*to lengthen*/
+        display:none;
     }
     /*left until...*/
     h3.fs-countdown-message {
-      /*  color: #353a59 !important;*/
-       /*to lengthen put color comment*/display:hidden !important;
+       color: #353a59 !important;
+       /*to lengthen */ visibility:hidden !important;
        position:relative !important;
     } 
     /*full width*/
