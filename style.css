@@ -151,8 +151,8 @@ h3.fs-matchers-intro.text-center.js-viewport-in.a-delay-100ms{
     }
     /*left until...*/
     h3.fs-countdown-message {
-        color: #353a59 !important;
-       /*to lengthen*/display:hidden !important;
+      /*  color: #353a59 !important;*/
+       /*to lengthen put color comment*/display:hidden !important;
        position:relative !important;
     } 
     /*full width*/
