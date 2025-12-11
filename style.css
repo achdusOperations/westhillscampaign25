@@ -274,7 +274,7 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         left:0 !important;
       }
       .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
-        display:none;
+        display:none !important;
     }
     h3.fs-countdown-message {
      visibility:hidden !important;
