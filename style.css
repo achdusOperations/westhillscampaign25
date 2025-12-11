@@ -139,7 +139,6 @@ h3.fs-matchers-intro.text-center.js-viewport-in.a-delay-100ms{
     }
     .fs-countdown-number, .fs-countdown-sep{
       color:#353a59 !important;
-      /*display:none !important;*/
     }
     /*maximize in countdown*/
     .fs-countdown h3 strong {
@@ -280,6 +279,9 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
      visibility:hidden !important;
        position:relative !important;
     } 
+    .fs-countdown-number, .fs-countdown-sep{
+        display:none !important;
+      }
 
 
     
