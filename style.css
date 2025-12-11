@@ -147,14 +147,10 @@ h3.fs-matchers-intro.text-center.js-viewport-in.a-delay-100ms{
     }
     .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
         color:#fff !important;
-        /*to lengthen*/
-        display:none;
     }
     /*left until...*/
     h3.fs-countdown-message {
        color: #353a59 !important;
-       /*to lengthen */ visibility:hidden !important;
-       position:relative !important;
     } 
     /*full width*/
     /*.fs-countdowndonate{
@@ -268,8 +264,7 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         width:100%;
     }
 
-    /*lengthen campaign*/
-    
+    /*lengthen campaign*/    
       h3.fs-countdown-message::after{
         content:"The campaign will remain open until we hit our goal." !important;
         color:#fff;
@@ -278,6 +273,13 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         top:0 !important;
         left:0 !important;
       }
+      .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
+        display:none;
+    }
+    h3.fs-countdown-message {
+     visibility:hidden !important;
+       position:relative !important;
+    } 
 
 
     
